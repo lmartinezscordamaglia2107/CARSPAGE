@@ -1,0 +1,29 @@
+package com.example.carspage
+
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.ui.graphics.Color
+
+// Mapeamento do Tema Escuro
+private val DarkColorScheme = darkColorScheme(
+    primary = CarAccentPrimary,
+    secondary = CarAccentSecondary,
+    tertiary = CarAccentVibrant,
+    background = CarDarkBackground,
+    surface = CarDarkSurface,
+    onPrimary = Color.White,
+    onBackground = CarDarkText,
+    onSurface = CarDarkText,
+)
+
+// Mapeamento do Tema Claro
+private val LightColorScheme = lightColorScheme(
+    primary = CarAccentPrimary,
+    secondary = CarAccentSecondary,
+    tertiary = CarAccentVibrant,
+    background = CarLightBackground,
+    surface = CarLightSurface,
+    onPrimary = Color.White,
+    onBackground = CarLightText,
+    onSurface = CarLightText,
+)
